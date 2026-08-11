@@ -1,0 +1,8 @@
+# 収集したいRSSフィードをここに追加してください
+# name: メールやDB上で表示する任意の名前
+# url : RSSフィードのURL
+feeds:
+  - name: "ITmedia NEWS"
+    url: "https://rss.itmedia.co.jp/rss/2.0/itmedia_all.xml"
+  - name: "NHKニュース 主要"
+    url: "https://www.nhk.or.jp/rss/news/cat0.xml"
