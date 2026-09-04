@@ -17,7 +17,7 @@ feeds:
   - name: "EBA"
     url: "https://eba.europa.eu/news-press/news/rss.xml"
   - name: "BOE"
-    url: "https://www.esma.europa.eu/press-news/rss.xml"
+    url: "https://www.bankofengland.co.uk/rss/news"
   - name: "SRB"
     url: "https://www.srb.europa.eu/en/rss"
   - name: "FSA"
