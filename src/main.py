@@ -74,11 +74,10 @@ def main():
 
     logger.info(f"新規記事件数: {len(collected)}")
 
-    if collected:
-        send_digest_email(entries=collected, distribution_date=distribution_date, settings=settings)
-        logger.info("メール送信完了")
-    else:
-        logger.info("新着記事がないためメール送信をスキップします")
+    if not collected:
+        logger.info("新着記事がないため、配信なし通知メールを送信します")
+    send_digest_email(entries=collected, distribution_date=distribution_date, settings=settings)
+    logger.info("メール送信完了")
 
 
 if __name__ == "__main__":
