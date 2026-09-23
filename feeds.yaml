@@ -5,7 +5,7 @@ feeds:
   - name: "FRB"
     url: "https://www.federalreserve.gov/feeds/press_all.xml"
   - name: "FSB"
-    url: "https://www.fsb.org/wordpress/content_type/press/feed/"
+    url: "https://www.fsb.org/feed/"
   - name: "OCC"
     url: "https://www.occ.gov/rss/occ_news.xml"
   - name: "BIS1"
