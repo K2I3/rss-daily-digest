@@ -2,8 +2,10 @@
 # name: メールやDB上で表示する任意の名前
 # url : RSSフィードのURL
 feeds:
-  - name: "FRB"
+  - name: "FRB_press_all"
     url: "https://www.federalreserve.gov/feeds/press_all.xml"
+  - name: "FRB_bankinginfo"
+    url: "https://www.federalreserve.gov/feeds/bankinginfo-rss.xml"
   - name: "FSB"
     url: "https://www.fsb.org/feed/"
   - name: "OCC"
